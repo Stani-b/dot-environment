@@ -1,5 +1,7 @@
 # Custom
 public/
+resouces/
+.DS_Store
 
 # Logs
 logs

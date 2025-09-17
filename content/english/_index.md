@@ -3,7 +3,6 @@
 banner:
   title: "dotEnvironment"
   content: "Professional Sustainability Services."
-  image: "/images/banner.png"
 
 
 # Features
