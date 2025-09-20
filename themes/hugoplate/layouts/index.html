@@ -112,9 +112,7 @@
                           {{ .content | markdownify }}
                         </blockquote>
                         <div class="mt-11 flex items-center">
-                          <div class="text-text-dark dark:text-white">
-                            {{ partial "image" (dict "Src" .avatar "Size" "50x50" "Class" "rounded-full" "Alt" .name) }}
-                          </div>
+                        
                           <div class="ml-4">
                             <h3 class="h5 font-primary font-semibold">
                               {{ .name }}
@@ -138,4 +136,33 @@
     {{ end }}
   {{ end }}
   <!-- /Testimonials -->
+
+  <!-- Contact -->
+  {{ with site.GetPage "sections/contact" }}
+    {{ if .Params.enable }}
+      <section class="section bg-gradient">
+        <div class="container">
+          <div class="row">
+            <div class="md:col-10 lg:col-8 xl:col-6 mx-auto mb-12 text-center">
+              <h2 class="mb-4">
+                {{ .Title | markdownify }}
+              </h2>
+              <p>
+                {{ .Params.description | markdownify }}
+              </p>
+            </div>
+            <div class="col-12">
+              <div class="swiper testimonial-slider">
+                <div class="swiper-wrapper">
+                </div>
+                <div
+                  class="testimonial-slider-pagination mt-9 flex items-center justify-center text-center"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    {{ end }}
+  {{ end }}
+
 {{ end }}

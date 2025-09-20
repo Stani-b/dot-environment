@@ -8,7 +8,23 @@ banner:
 # Features
 features:
   - title: "Project Breakdown"
-    image: "/images/service-1.png"
+    image: "/images/service-3.png"
+    bulletpoints:
+      - "Guide through data collection process"
+      - "System modelling"
+      - "Assessment of relevant environmental aspects"
+      - "Results interpretation"
+      - "Final report"
+      - "Final presentation including tips on how to use the findings in practice"
+    button:
+      enable: false
+      label: "Get Started Now"
+      link: "#"
+
+# Features
+features:
+  - title: "Project Breakdown"
+    image: "/images/service-3.png"
     bulletpoints:
       - "Guide through data collection process"
       - "System modelling"
