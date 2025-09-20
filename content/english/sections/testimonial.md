@@ -8,7 +8,7 @@ testimonials:
   - name: "Applied Energy"
     designation: "Data center excess heat for mealworm farming, an applied analysis for sustainable protein production"
     avatar: "/images/avatar-sm.png"
-    content: <iframe id="platformiFrm1n22511n1" src="https://doi.org/10.1016/j.apenergy.2023.121990" frameborder="0" height="180"  seamless="true" style="width:100%;height:180px;" width="100%"></iframe>
+    content:  <a target="_blank" href="https://doi.org/10.1016/j.apenergy.2023.121990" ><img src="https://ars.els-cdn.com/content/image/1-s2.0-S0306261923X0021X-cov200h.gif"></img></a>
 
   - name: "Environment Variables"
     designation: "The Week in Green Software: Data Center LCA with Stani Borisová"
