@@ -8,22 +8,22 @@ testimonials:
   - name: "Journal of Cleaner Production"
     designation: "Assessing the environmental impact of operating a Swedish data centre in subarctic climate"
     avatar: "/images/avatar-sm.png"
-    content:  <a target="_blank" href="https://doi.org/10.1016/j.jclepro.2025.146819" ><img src="https://ars.els-cdn.com/content/image/X09596526.jpg"><img height= "160"></img></a>
+    content:  <a target="_blank" href="https://doi.org/10.1016/j.jclepro.2025.146819" ><img src="https://ars.els-cdn.com/content/image/X09596526.jpg"><img height= "80"></img></a>
   
   - name: "Applied Energy"
     designation: "Data center excess heat for mealworm farming, an applied analysis for sustainable protein production"
     avatar: "/images/avatar-sm.png"
-    content:  <a target="_blank" href="https://doi.org/10.1016/j.apenergy.2023.121990" ><img src="https://ars.els-cdn.com/content/image/X03062619.jpg"><img height= "160"></img></a>
+    content:  <a target="_blank" href="https://doi.org/10.1016/j.apenergy.2023.121990" ><img src="https://ars.els-cdn.com/content/image/X03062619.jpg"><img height= "80"></img></a>
 
   - name: "Environment Variables"
     designation: "The Week in Green Software: Data Center LCA with Stani Borisová"
     avatar: "/images/avatar-sm.png"
-    content: <iframe id="platformiFrmlnq0yyj8" src="https://player.castplus.fm/environment-variables/lnq0yyj8-the-week-in-green-software-data-center-lca-with-stani-borisova" frameborder="0" height="160"  seamless="true" style="width:100%;height:160;" width="100%"></iframe>
+    content: <iframe id="platformiFrmlnq0yyj8" src="https://player.castplus.fm/environment-variables/lnq0yyj8-the-week-in-green-software-data-center-lca-with-stani-borisova" frameborder="0" height="360"  seamless="true" style="width:100%;height:360;" width="100%"></iframe>
 
   - name: "Green IO"
     designation: "Datacenter Sustainability with Stanislava Borisova and Benoit Petit"
     avatar: "/images/avatar-sm.png"
-    content: <iframe id="platformiFrm1n22511n" src="https://player.castplus.fm/greenio/1n22511n-episode-16-stanislava-borisova-and-benoit-petit" frameborder="0" height="500"  seamless="true" style="width:100%;height:160;" width="100%"></iframe>
+    content: <iframe id="platformiFrm1n22511n" src="https://player.castplus.fm/greenio/1n22511n-episode-16-stanislava-borisova-and-benoit-petit" frameborder="0" height="360"  seamless="true" style="width:100%;height:360;" width="100%"></iframe>
 
   - name: "Swedish Data Center Industry Association"
     designation: "Data Centers & LCA"
