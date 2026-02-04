@@ -18,12 +18,12 @@ testimonials:
   - name: "Environment Variables"
     designation: "The Week in Green Software: Data Center LCA with Stani Borisová"
     avatar: "/images/avatar-sm.png"
-    content: <iframe id="platformiFrmlnq0yyj8" src="https://player.castplus.fm/environment-variables/lnq0yyj8-the-week-in-green-software-data-center-lca-with-stani-borisova" frameborder="0" height="417"  seamless="true" style="width:100%;height:417px;" width="100%"></iframe>
+    content: <iframe id="platformiFrmlnq0yyj8" src="https://player.castplus.fm/environment-variables/lnq0yyj8-the-week-in-green-software-data-center-lca-with-stani-borisova" frameborder="0" height="160"  seamless="true" style="width:100%;height:160;" width="100%"></iframe>
 
   - name: "Green IO"
     designation: "Datacenter Sustainability with Stanislava Borisova and Benoit Petit"
     avatar: "/images/avatar-sm.png"
-    content: <iframe id="platformiFrm1n22511n" src="https://player.castplus.fm/greenio/1n22511n-episode-16-stanislava-borisova-and-benoit-petit" frameborder="0" height="180"  seamless="true" style="width:100%;height:180px;" width="100%"></iframe>
+    content: <iframe id="platformiFrm1n22511n" src="https://player.castplus.fm/greenio/1n22511n-episode-16-stanislava-borisova-and-benoit-petit" frameborder="0" height="160"  seamless="true" style="width:100%;height:160;" width="100%"></iframe>
 
   - name: "Swedish Data Center Industry Association"
     designation: "Data Centers & LCA"
