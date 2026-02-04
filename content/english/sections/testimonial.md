@@ -23,7 +23,7 @@ testimonials:
   - name: "Green IO"
     designation: "Datacenter Sustainability with Stanislava Borisova and Benoit Petit"
     avatar: "/images/avatar-sm.png"
-    content: <iframe id="platformiFrm1n22511n" src="https://player.castplus.fm/greenio/1n22511n-episode-16-stanislava-borisova-and-benoit-petit" frameborder="0" height="160"  seamless="true" style="width:100%;height:160;" width="100%"></iframe>
+    content: <iframe id="platformiFrm1n22511n" src="https://player.castplus.fm/greenio/1n22511n-episode-16-stanislava-borisova-and-benoit-petit" frameborder="0" height="360"  seamless="true" style="width:100%;height:160;" width="100%"></iframe>
 
   - name: "Swedish Data Center Industry Association"
     designation: "Data Centers & LCA"
