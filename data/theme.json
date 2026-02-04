@@ -4,8 +4,8 @@
       "theme_color": {
         "primary": "#64489d", 
         "body": "#71c7ab",    
-        "border": "#d4ede9",  
-        "light": "#e6cfe5",  
+        "border": "#64489d",  
+        "light": "#d4ede9",  
         "dark": "#427769"     
       },
 
