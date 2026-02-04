@@ -13,7 +13,7 @@
       "text_color": {
         "text": "#333333",
         "text_dark": "#040404",
-        "text_light": "#eeeae9"
+        "text_light": "#333333"
       }
     },
     "darkmode": {
@@ -33,9 +33,9 @@
   },
   "fonts": {
     "font_family": {
-      "primary": "ExoBlack:wght@900;1100",
+      "primary": "Exo:wght@900;1100",
       "primary_type": "sans-serif",
-      "secondary": "OxygenRegular:wght@400",
+      "secondary": "Oxygen:wght@400",
       "secondary_type": "sans-serif"
     },
     "font_size": {
