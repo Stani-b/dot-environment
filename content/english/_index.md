@@ -2,8 +2,7 @@
 # Banner
 banner:
   title: "dotEnvironment"
-  content: "Professional, science-based sustainability consultancy. We offer life cycle assessment (LCA) studies with focus on hotspot analysis, environmental product declarations (EPDs), third-party reviews, and GHG protocol calculations."
-
+  content: "Science-based sustainability consultancy. We offer life cycle assessment (LCA) studies with focus on hotspot analysis, environmental product declarations (EPDs), third-party reviews, and GHG protocol calculations."
 
 # Features
 features:
@@ -22,7 +21,7 @@ features:
       link: "#"
 
 # Features
-features:
+features1:
   - title: "Project Breakdown"
     image: "/images/service-3.png"
     bulletpoints:
