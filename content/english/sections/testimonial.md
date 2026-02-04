@@ -8,12 +8,12 @@ testimonials:
   - name: "Journal of Cleaner Production"
     designation: "Assessing the environmental impact of operating a Swedish data centre in subarctic climate"
     avatar: "/images/avatar-sm.png"
-    content:  <a target="_blank" href="https://doi.org/10.1016/j.jclepro.2025.146819" ><img src="https://ars.els-cdn.com/content/image/X09596526.jpg"></img></a>
+    content:  <a target="_blank" href="https://doi.org/10.1016/j.jclepro.2025.146819" ><img src="https://ars.els-cdn.com/content/image/X09596526.jpg"><img height= "160"></img></a>
   
   - name: "Applied Energy"
     designation: "Data center excess heat for mealworm farming, an applied analysis for sustainable protein production"
     avatar: "/images/avatar-sm.png"
-    content:  <a target="_blank" href="https://doi.org/10.1016/j.apenergy.2023.121990" ><img src="https://ars.els-cdn.com/content/image/1-s2.0-S0306261923X0021X-cov200h.gif"></img></a>
+    content:  <a target="_blank" href="https://doi.org/10.1016/j.apenergy.2023.121990" ><img src="https://www.sciencedirect.com/journal/applied-energy"></img></a>
 
   - name: "Environment Variables"
     designation: "The Week in Green Software: Data Center LCA with Stani Borisová"
