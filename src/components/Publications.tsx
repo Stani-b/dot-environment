@@ -6,6 +6,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import { randomizeArray } from "@/lib/utils"
 
 import pubEnvironmentVariables from "@/assets/pub-environment-variables.jpg";
 import pubGreenIo from "@/assets/pub-green-io.jpg";
@@ -81,7 +82,7 @@ const Publications = () => {
           className="w-full"
         >
           <CarouselContent className="-ml-4">
-            {publications.map((pub, i) => (
+            {randomizeArray(publications).map((pub, i) => (
               <CarouselItem key={i} className="pl-4 basis-[85%] md:basis-1/2 lg:basis-1/3">
                 <a
                   href={pub.url}
