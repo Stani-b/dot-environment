@@ -8,9 +8,9 @@ import {
 } from "@/components/ui/carousel";
 import { randomizeArray } from "@/lib/utils"
 
-import pubEnvironmentVariables from "@/assets/pub-environment-variables.jpg";
-import pubGreenIo from "@/assets/pub-green-io.jpg";
-import pubSdia from "@/assets/pub-sdia.jpg";
+import pubEnvironmentVariables from "@/assets/pub-environment-variables.png";
+import pubGreenIo from "@/assets/pub-green-io.png";
+import pubSdia from "@/assets/pub-sdia.png";
 import pubCleanerProduction from "@/assets/pub-cleaner-production.jpg";
 import pubAppliedEnergy from "@/assets/pub-applied-energy.jpg";
 
@@ -20,7 +20,7 @@ const publications = [
     title: "The Week in Green Software: Data Center LCA with Stani Borisová",
     type: "podcast" as const,
     url: "https://podcasts.castplus.fm/e/lnq0yyj8-the-week-in-green-software-data-center-lca-with-stani-borisova",
-    quote: "An eye-opening deep dive into data center LCA, discussing how data centers might be unnecessarily using too much energy to cool themselves down.",
+    quote: "This episode of The Week in Green Software, features guest Stani Borisová; Expert at Life Cycle Management. Host Chris quizzes her on her expertise in data center LCA and they discuss interesting news tidbits.",
     image: pubEnvironmentVariables,
   },
   {
@@ -28,7 +28,7 @@ const publications = [
     title: "Datacenter Sustainability with Stanislava Borisova and Benoit Petit",
     type: "podcast" as const,
     url: "https://podcasts.castplus.fm/e/1n22511n-episode-16-stanislava-borisova-and-benoit-petit",
-    quote: "An episode on how data centers can play a crucial role in building a sustainable digital future.",
+    quote: "What if we unveiled the often overlooked environmental impact of data centers together? Travel with Gaël Duez to Sweden to meet Life Cycle Management expert Stanislava",
     image: pubGreenIo,
   },
   {
