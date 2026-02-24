@@ -1,6 +1,4 @@
 import { Check } from "lucide-react";
-import LCA_image from "@/assets/LCA_image.png";
-import Use_image from "@/assets/use.png";
 
 const lca_texts = [
   "ISO standardized method to evaluate impact that a product or service has on the environment",
@@ -10,14 +8,12 @@ const lca_texts = [
   "Used in product development, strategic plans, communications, marketing, public policy making",
 ];
 
-
 const epd_texts = [
   "LCAs built on rules for a specific group of products to enable their comparison",
   "Third-party verified",
   "Published at an independent programme operator",
   "Increase customer demand, in some cases required by law, needed in public procurement",
 ];
-
 
 const ghg_prot_texts = [
   "A method to calculate GHG emissions of a company per year",
@@ -26,7 +22,6 @@ const ghg_prot_texts = [
   "Can be combined with Science-based targets initiative (SBTi) to publicly commit to a climate impact reduction",
 ];
 
-
 const thrd_party_texts = [
   "Essential step to ensure credibility of your sustainability reporting",
   "Applicable to LCA - e.g. when comparing two competing products publicly, so-called 'comparative assertion' standardized in ISO 14071",
@@ -34,103 +29,30 @@ const thrd_party_texts = [
   "Applicable to GHG protocol - for internal purposes to avoid mistakes and for external purposes, e.g. in combination with SBTi",
 ];
 
+const boxes = [
+  { title: "Life Cycle Assessment", texts: lca_texts },
+  { title: "Environmental Product Declarations", texts: epd_texts },
+  { title: "Greenhouse Gas Protocol", texts: ghg_prot_texts },
+  { title: "Third-Party Reviews", texts: thrd_party_texts },
+];
 
 const LifeCycleAssessment = () => {
   return (
-    <section className="place-items-center">
-      <div className="grid-cols-3 gap-4 justify-center m-20">
-        <div className="bg-background ">
-          <div className=" mx-auto grid md:grid-cols-2 gap-12 md:gap-20 items-center">
-            <div>
-              <h2 className="text-3xl md:text-4xl mb-8 text-foreground">
-                Life Cycle Assessment
-              </h2>
-              <ul className="space-y-4">
-                {lca_texts.map((step, i) => (
-                  <li key={i} className="flex items-start gap-3">
-                    <Check className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground leading-relaxed">{step}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
+    <section className="px-6 py-16">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-7xl mx-auto">
+        {boxes.map(({ title, texts }) => (
+          <div key={title} className="border rounded-xl p-8 bg-background">
+            <h2 className="text-2xl md:text-3xl mb-6 text-foreground">{title}</h2>
+            <ul className="space-y-3">
+              {texts.map((text, i) => (
+                <li key={i} className="flex items-start gap-3">
+                  <Check className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
+                  <span className="text-muted-foreground leading-relaxed">{text}</span>
+                </li>
+              ))}
+            </ul>
           </div>
-        </div>
-
-        <div className="justify-center">
-          <img
-            src={LCA_image}
-            alt="Image showing LCA cycle."
-            className="max-w-md"
-          />
-        </div>
-
-        <div className="bg-background">
-          <div className=" mx-auto grid md:grid-cols-2 gap-12 md:gap-20 items-center">
-
-            <div>
-              <h2 className="text-3xl md:text-4xl mb-8 text-foreground">
-                Environmental Product Declarations
-              </h2>
-              <ul className="space-y-4">
-                {epd_texts.map((step, i) => (
-                  <li key={i} className="flex items-start gap-3">
-                    <Check className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground leading-relaxed">{step}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </div>
-
-      </div>
-      <div className="grid-cols-3 gap-4 justify-center">
-
-        <div className="py-20 md:py-28 px-6 md:px-12 bg-background items-end">
-          <div className=" mx-auto grid md:grid-cols-2 gap-12 md:gap-20 items-center">
-            <div>
-              <h2 className="text-3xl md:text-4xl mb-8 text-foreground">
-                Greenhouse gas protocol
-              </h2>
-              <ul className="space-y-4">
-                {ghg_prot_texts.map((step, i) => (
-                  <li key={i} className="flex items-start gap-3">
-                    <Check className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground leading-relaxed">{step}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div className="justify-center">
-          <img
-            src={Use_image}
-            alt="Image of finger clicking."
-            className="max-w-md"
-          />
-        </div>
-
-        <div className="py-20 md:py-28 px-6 md:px-12 bg-background items-start">
-          <div className=" mx-auto grid md:grid-cols-2 gap-12 md:gap-20 items-center">
-
-            <div>
-              <h2 className="text-3xl md:text-4xl mb-8 text-foreground">
-                Third-party reviews
-              </h2>
-              <ul className="space-y-4">
-                {thrd_party_texts.map((step, i) => (
-                  <li key={i} className="flex items-start gap-3">
-                    <Check className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground leading-relaxed">{step}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </div>
+        ))}
       </div>
     </section>
   );

@@ -6,11 +6,10 @@ const Footer = () => {
       <img
         src={footerWave}
         alt=""
-        className="w-full object-cover"
+        className="w-full object-cover min-h-[400px] md:min-h-0"
       />
-
-      <div className="absolute inset-0 flex items-start justify-center">
-        <div className="max-w-2xl mx-auto text-center px-4">
+      <div className="absolute inset-0 flex items-center justify-center px-4">
+        <div className="max-w-2xl mx-auto text-center bg-background/80 backdrop-blur-sm rounded-xl px-6 py-6">
           <h2 className="text-3xl md:text-4xl text-foreground mb-4">
             Ready to discuss your next project?
           </h2>
